@@ -205,7 +205,7 @@ int main ()
 					goto LOOP2;  
 				case 'm':
 					goto VEHICLE;  
-				case 'q':   // using this case instead of while(c!='q')
+				case 'q':
 					break;
 				default:
 				    	cout<<"Invalid key"<<endl;
@@ -236,7 +236,7 @@ int main ()
 					goto LOOP3;  
 				case 'm':
 					goto VEHICLE;  
-				case 'q':   // using this case instead of while(c!='q')
+				case 'q':
 					break;
 				default:
 			    		cout<<"Invalid key"<<endl;
