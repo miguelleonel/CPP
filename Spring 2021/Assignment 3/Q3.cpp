@@ -16,24 +16,12 @@ class Car
 	public:
 	    Car(string make, string model) 
     	{
-    		this->make = make;
-            this->model = model;
+		this->make = make;
+		this->model = model;
     		speed = 0;
     		gear = 1;
     		lane = "right";
     	}
-		string getMake() 
-		{
-            return make;
-        }
-        string getModel() 
-		{
-            return model;
-        }
-		int getGear() 
-		{
-            return gear;
-        }
         void gearUp() 
 		{ 
             gear++;
@@ -54,10 +42,6 @@ class Car
                 gear = 1;
             }
         }
-		string getLane() 
-		{
-			return lane;
-		}
 		void changeLane(char c)
 		{
 			if(c=='l')
@@ -95,10 +79,6 @@ class Car
 					}
 			}
 		}
-		int getSpeed() 
-		{
-            return speed;
-        }
         void accelerate() 
 		{
 		    cout<<"*Speeding up by 5 MPH*"<<endl;
